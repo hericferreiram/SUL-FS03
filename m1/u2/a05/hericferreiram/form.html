@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro formulário</title>
+</head>
+
+<body>
+    <form action="" 
+    method="get">  <!--Get é uma consulta, URL-->
+<label
+for="username">
+Nome do Usuário
+</label>
+        <input 
+        id="username" 
+        name="buscar" 
+        type="text"
+        value=""> <!--type= Colocar texto-->
+                               <!-- value= é utilizado para definir o valor inicial do campo, -->
+        <br>
+        <label for="password">
+            Senha
+        </label>
+        <input 
+        id="password" 
+        name="q" 
+        type="password"> <!--Senha-->
+        <br>
+        <input 
+        id="termo" 
+        name="s" 
+        type="checkbox"> <!-- Concordo, ok-->
+        <br>
+        <input 
+        id="concordo" 
+        name="t" 
+        type="radio"> <!-- Concordo, ok-->
+        <br>
+            <!--name é uma propriedade, fica na URL-->
+            <!--id é utilizado para identificar o campo no documento. Ele é importante para que o navegador saiba como identificar os campos-->
+
+        <textarea 
+        id= "xxx" 
+        name="yyy" 
+        rows="3" 
+        cols="25"
+        placeholder="Digite aqui"></textarea> 
+         <!--text area, observação, corpo do texto, comentário. rows altura, cols largura. placeholder indicar algo-->
+        <br>
+
+        <button>Carregar</button>
+
+    </form>
+</body>
+
+</html>
