@@ -12,7 +12,7 @@
     method="get">  <!--Get é uma consulta, URL-->
 <label
 for="username">
-Nome do Usuário
+Nome do Usuário:
 </label>
         <input 
         id="username" 
@@ -20,28 +20,58 @@ Nome do Usuário
         type="text"
         value=""> <!--type= Colocar texto-->
                                <!-- value= é utilizado para definir o valor inicial do campo, -->
-        <br>
+        <br>  <br>
         <label for="password">
             Senha
         </label>
+        
         <input 
         id="password" 
         name="q" 
         type="password"> <!--Senha-->
-        <br>
+        <br> <br>
+
+        <label 
+        for="email">
+        E-mail:
+        </label>
+
         <input 
-        id="termo" 
+        id="email"
+        type="email"/> 
+        <br> <br>
+
+        <label
+            for="checkbox">
+        Li e aceito os termos.
+        </label>
+        
+        <input 
+        id="checkbox" 
         name="s" 
         type="checkbox"> <!-- Concordo, ok-->
-        <br>
+        <br> <br>
+
+        <label
+            for="radio">
+        Masculino       
+        </label>
+        
         <input 
-        id="concordo" 
+        id="genero" 
         name="t" 
         type="radio"> <!-- Concordo, ok-->
-        <br>
-            <!--name é uma propriedade, fica na URL-->
+        <br> <br> <!--name é uma propriedade, fica na URL-->
             <!--id é utilizado para identificar o campo no documento. Ele é importante para que o navegador saiba como identificar os campos-->
-
+            <label for="radio">
+                Feminino
+            </label>
+        <input 
+        id="generoo"
+        name="i"
+        type="radio">
+         <br> <br>
+         
         <textarea 
         id= "xxx" 
         name="yyy" 
